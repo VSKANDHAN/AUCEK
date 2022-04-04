@@ -38,7 +38,8 @@ section {
 }
 
 #bannertext {
-    margin-left: 10px;
+    text-align: center;
+    margin-left: 20px;
 }
 
 #bannerpic img {
@@ -50,7 +51,8 @@ section {
 
 #bannertext h5 {
     text-align: center;
-    margin-top: 25px
+    margin-top: 25px;
+    font-weight: 500;
 }
 
 #collapsibleNavbar {
