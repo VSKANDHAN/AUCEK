@@ -368,3 +368,15 @@ h1 {
     font-size: 20px;
     text-align: justify;
 }
+
+.admin {
+    text-align: center;
+}
+
+.admin img {
+    margin-top: 10px;
+}
+
+#admin1 {
+    text-align: center;
+}
