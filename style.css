@@ -27,10 +27,11 @@ section {
 
 #bannertext h2 {
     color: rgb(102, 51, 153);
-    margin-top: 25px;
+    margin-top: 40px;
+    font-size: 22px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
+    font-weight: 1000;
 }
 
 #bannerpic {
@@ -92,6 +93,13 @@ nav a:hover {
     display: inline;
 }
 
+#button {
+    background-color: #ff7300;
+    border-radius: 2px;
+    border: none;
+    text-decoration: none;
+}
+
 .navbar {
     background-color: rgb(102, 51, 153);
     position: fixed;
@@ -110,6 +118,14 @@ nav a:hover {
 
 .navbar-nav>li>.dropdown-menu {
     background-color: rgba(82, 82, 82, 0.842);
+}
+
+#button a {
+    text-decoration: none;
+}
+
+#scroll a {
+    font-size: 20px;
 }
 
 .top {
@@ -154,8 +170,13 @@ h6 {
 }
 
 .mission :hover {
-    color: #ffffff;
+    color: rgb(102, 51, 153);
     font-size: larger;
+}
+
+#lefttitle h4 {
+    text-align: center;
+    margin-left: 64px;
 }
 
 .title :hover {
@@ -174,7 +195,11 @@ h6 {
 }
 
 .col-8.col-lg-3 {
-    background-color: rgba(105, 153, 51, 0.712);
+    background-color: #ffffe0d8;
+    border-width: px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(102, 51, 153);
 }
 
 #mid img {
@@ -190,8 +215,10 @@ h6 {
 #p1 {
     margin-top: 20px;
     text-align: justify;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.00938em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
 }
 
 #ucek {
@@ -208,7 +235,7 @@ h6 {
 
 h1 {
     border-radius: 10px;
-    background-color: rgba(105, 153, 51, 0.712);
+    background-color: #a756f9;
     color: white;
 }
 
@@ -378,5 +405,7 @@ h1 {
 }
 
 #admin1 {
+    background-color: rgba(105, 153, 51, 0.774);
     text-align: center;
+    border-radius: 5px;
 }
