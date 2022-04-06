@@ -296,7 +296,15 @@ h1 {
 
 .container {
     margin-top: 10px;
-    background-color: rgba(105, 153, 51, 0.774);
+    background-color: #7859fc;
+    background: linear-gradient(90deg, #7859fc, #a756f9) border-box;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#admin1 {
+    background-color: #7859fc;
+    background: linear-gradient(90deg, #7859fc, #a756f9) border-box;
     text-align: center;
     border-radius: 5px;
 }
