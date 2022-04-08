@@ -25,6 +25,12 @@ section {
     box-sizing: border-box;
 }
 
+.carousel-inner .carousel-item {
+    transition: -webkit-transform 1s ease;
+    transition: transform 1s ease;
+    transition: transform 1s ease, -webkit-transform 1s ease;
+}
+
 #bannertext h2 {
     color: rgb(102, 51, 153);
     margin-top: 40px;
@@ -492,8 +498,8 @@ h1 {
 }
 
 .depttitle {
-    margin-top: 90px;
-    margin-bottom: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .depttitle .btn-primary {
@@ -515,7 +521,63 @@ h1 {
     background-color: #fbddff;
 }
 
+.depttitle1 .btn-primary {
+    background-color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+.depttitle1 .btn-primary a {
+    color: #7859fc;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.depttitle1 button:hover {
+    background-color: #fbddff;
+}
+
 #csep a {
     text-decoration: underline;
     color: white;
+}
+
+#table1 th {
+    color: white;
+}
+
+#thead {
+    color: rgb(255, 145, 0);
+    font-weight: 800;
+    font-size: 28px;
+}
+
+#table2 a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #e5ecfc;
+}
+
+.hodpic img {
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#contact p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+#contact i {
+    size: 20px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
