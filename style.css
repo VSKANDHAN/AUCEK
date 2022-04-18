@@ -31,6 +31,11 @@ section {
     transition: transform 1s ease, -webkit-transform 1s ease;
 }
 
+.me-0 {
+    margin-right: 0!important;
+    margin-left: 0! important;
+}
+
 #bannertext h2 {
     color: rgb(102, 51, 153);
     margin-top: 40px;
@@ -452,7 +457,7 @@ h1 {
     border-radius: 4px;
 }
 
-.admin button {
+#admin4 {
     background-color: white;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -460,11 +465,11 @@ h1 {
     border: none;
 }
 
-.admin button:hover {
+#admin4:hover {
     background-color: #fbddff;
 }
 
-.admin a {
+#admin4 a {
     color: #7859fc;
     font-size: 20px;
     font-weight: 700;
@@ -580,4 +585,24 @@ h1 {
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+
+.w-100:hover {
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 8px;
+    border-width: 6px;
+}
+
+.container1 {
+    background-color: #7859fc;
+    text-align: center;
+}
+
+.container1 p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
 }
