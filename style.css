@@ -75,16 +75,22 @@ section {
     background-color: #ffe2a89c;
 }
 
-.navbar {
-    margin: 0 !important;
-    padding: 20px;
-    position: fixed;
-    top: 0px;
-}
-
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
+}
+
+.dptli a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: rgb(102, 51, 153);
+}
+
+.active {
+    background-color: #ff6f00;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -102,13 +108,6 @@ nav a:hover {
 .navbar ul li {
     list-style-type: none;
     display: inline;
-}
-
-#button {
-    background-color: #ff7300;
-    border-radius: 2px;
-    border: none;
-    text-decoration: none;
 }
 
 .navbar {
@@ -543,6 +542,14 @@ h1 {
     background-color: #fbddff;
 }
 
+#csep {
+    color: white;
+}
+
+#csep2 {
+    color: white;
+}
+
 #csep a {
     text-decoration: underline;
     color: white;
@@ -550,6 +557,10 @@ h1 {
 
 #table1 th {
     color: white;
+}
+
+#table1 tr {
+    text-align: left;
 }
 
 #thead {
@@ -605,4 +616,50 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: 600;
+}
+
+#table1 th {
+    color: #ff6f00;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#table1 tr {
+    color: rgb(255, 255, 255);
+}
+
+#table3 th {
+    color: #ff6f00;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+
+#table3 a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+}
+
+#table3 td {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#cf h3 {
+    color: white;
+    font-size: 28px;
+}
+
+#cf {
+    background-color: #ff6f00;
+}
+
+#thead1 {
+    color: white;
+    font-size: 30px;
 }
