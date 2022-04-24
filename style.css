@@ -86,7 +86,7 @@ section {
     background-color: rgb(102, 51, 153);
 }
 
-.active {
+.active1 {
     background-color: #ff6f00;
     border-radius: 5px;
     border: none;
@@ -662,4 +662,10 @@ h1 {
 #thead1 {
     color: white;
     font-size: 30px;
+}
+
+#staff {
+    color: #7859fc;
+    font-size: 30px;
+    font-weight: 500;
 }
